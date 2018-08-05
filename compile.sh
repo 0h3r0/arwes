@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# compile all the specified packages JavaScript source code with babel
+# they have their source at packages/[name]/src and compile at packages/[name]/lib
+
 alias babel='./node_modules/.bin/babel'
 
 log() {

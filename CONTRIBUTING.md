@@ -225,27 +225,16 @@ $ npm run playground
 
 ## Releasing
 
-Before releasing, please make sure code format and styles are ok, all tests pass,
-and compile the packages:
+You need to make sure code format and code styles are ok, all tests pass,
+compile the code packages, publish to NPM, publish to Git and update the changelog.
+
+In the `master` branch, at root path:
 
 ```bash
-$ npm run lint
-$ npm run test
-$ npm run compile
+$ npm run release
 ```
 
-In the `master` branch, at root path, run lerna publishing command:
-
-```bash
-$ lerna publish
-```
-
-Lerna will take care of publishing to NPM but to update the git tag and update the
-changelog, you have to run:
-
-```bash
-$ npm run release-git
-```
+It will take care of all the steps required to release the project packages.
 
 -------
 
