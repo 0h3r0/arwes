@@ -1,8 +1,8 @@
 /* eslint-disable */
 
 export default [
-  { name: 'sounds/SoundsProvider', component: require('../packages/sounds/src/SoundsProvider/sandbox.js').default },
-  { name: 'arwes/ThemeProvider', component: require('../packages/arwes/src/ThemeProvider/sandbox.js').default },
+  { name: 'design/ThemeProvider', component: require('../packages/design/src/ThemeProvider/sandbox.js').default },
+  { name: 'sounds/SoundsProvider', component: require('../packages/sounds/src/SoundsProvider/sandbox.js').default }/*,
   { name: 'arwes/Arwes', component: require('../packages/arwes/src/Arwes/sandbox.js').default },
   { name: 'arwes/Words', component: require('../packages/arwes/src/Words/sandbox.js').default },
   { name: 'arwes/Heading', component: require('../packages/arwes/src/Heading/sandbox.js').default },
@@ -26,5 +26,5 @@ export default [
   { name: 'arwes/Appear', component: require('../packages/arwes/src/Appear/sandbox.js').default },
   { name: 'arwes/Highlight', component: require('../packages/arwes/src/Highlight/sandbox.js').default },
   { name: 'arwes/Puffs', component: require('../packages/arwes/src/Puffs/sandbox.js').default },
-  { name: 'arwes/Logo', component: require('../packages/arwes/src/Logo/sandbox.js').default }
+  { name: 'arwes/Logo', component: require('../packages/arwes/src/Logo/sandbox.js').default }*/
 ];

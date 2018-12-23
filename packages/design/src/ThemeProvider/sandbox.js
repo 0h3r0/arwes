@@ -1,4 +1,39 @@
 import React from 'react';
+import withStyles, { ThemeProvider } from 'react-jss';
+
+const App1 = withStyles({
+  root: {
+    display: 'block',
+    margin: 20,
+    backgroundColor: '#444'
+  },
+  title: {
+    margin: [0, 0, 20],
+    fontSize: 40,
+    color: '#00ffff',
+    textShadow: '1px 1px #11eeee'
+  },
+  content: {
+    fontSize: 20,
+    color: '#11eeee'
+  }
+})(({ classes }) => (
+  <div className={classes.root}>
+    <h1 className={classes.title}>JSS</h1>
+    <p className={classes.content}>It is an awesome framework to build apps.</p>
+  </div>
+));
+
+const App2 = withStyles({
+  title: {
+    border: '2px solid red'
+  }
+})(App1);
+
+export default () => <App2 />;
+
+/*
+import React from 'react';
 import createTheme from '../tools/createTheme';
 import withStyles from '../tools/withStyles';
 import ThemeProvider from './index';
@@ -44,3 +79,4 @@ export default class MyApp extends React.Component {
     });
   }
 }
+*/

@@ -80,17 +80,5 @@ export default {
     variable: '#3aafff',
     selector: '#3aafff',
     value: '#05d48e'
-  },
-
-  // Number of columns inside a row
-  columns: 12,
-
-  // Until the number in device screen width the breakpoint is taken.
-  // E.g. Until the `small` number is viewport small, from `small + 1` is medium.
-  // After `large` one it is `xlarge`.
-  responsive: {
-    small: 600,
-    medium: 992,
-    large: 1200
   }
 };

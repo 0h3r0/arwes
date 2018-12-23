@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import withStyles from 'react-jss';
 import Navigo from 'navigo';
 
-import createTheme from '../packages/arwes/src/tools/createTheme';
-import ThemeProvider from '../packages/arwes/src/ThemeProvider';
+import createTheme from '../packages/design/src/createTheme';
+import ThemeProvider from '../packages/design/src/ThemeProvider';
 import createSounds from '../packages/sounds/src/createSounds';
 import SoundsProvider from '../packages/sounds/src/SoundsProvider';
 import sandboxes from './sandboxes';

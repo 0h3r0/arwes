@@ -1,0 +1,30 @@
+{
+  "name": "@arwes/design",
+  "version": "1.0.0-alpha.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Arwes Design Tools",
+  "keywords": [
+    "arwes",
+    "design",
+    "cssinjs",
+    "jss",
+    "react"
+  ],
+  "homepage": "https://arwesjs.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arwesjs/arwes.git"
+  },
+  "license": "MIT",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "polished": "^1.9.3",
+    "react-jss": "^8.6.1"
+  }
+}

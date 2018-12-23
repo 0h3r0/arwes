@@ -19,6 +19,7 @@ build() {
 log "Compiling Arwes packages."
 
 build "arwes"
+build "design"
 build "sounds"
 
 log "\nCompilation completed."
