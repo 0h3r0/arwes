@@ -10,16 +10,16 @@
     "sounds",
     "react"
   ],
+  "homepage": "https://arwesjs.org",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arwesjs/arwes.git"
   },
-  "bugs": {
-    "url": "https://github.com/arwesjs/arwes/issues"
-  },
-  "author": "Romel Pérez (romelperez.com)",
   "license": "MIT",
-  "homepage": "https://arwesjs.org",
+  "files": [
+    "src",
+    "lib"
+  ],
   "main": "lib/index.js",
   "dependencies": {
     "extend": "^3.0.2",
